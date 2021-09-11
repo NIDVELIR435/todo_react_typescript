@@ -1,0 +1,46 @@
+.item {
+   display: flex;
+   background-color: rgba(128, 128, 128, 0.164);
+   margin: 1px 0px;
+   border-radius: 5px;
+   padding: 5px;
+}
+.message {
+   background-color: rgba(255, 255, 255, 0.774);
+   margin: 5px 0px;
+   border-radius: 5px;
+   padding: 5px;
+   width: 150px;
+   overflow: hidden;
+}
+.button__status_unActive {
+   background-color: rgba(3, 28, 250, 0.493);
+   width: 70px;
+}
+.button__status_active {
+   background-color: rgba(0, 128, 0, 0.507);
+   width: 70px;
+}
+.button__delete {
+   background-color: rgba(255, 0, 0, 0.5);
+   border: 1px solid rgba(0, 0, 0, 0.5);
+   width: 60px;
+}
+.button__status_unComplete {
+   background-color: rgba(128, 128, 128, 0.5);
+   width: 70px;
+}
+.button__status_comlete {
+   background-color: rgba(0, 128, 0, 0.507);
+   width: 70px;
+}
+
+/* @media */
+@media (max-width: 767px) {
+   .item {
+      width: 350px;
+      justify-content: space-around;
+   }
+}
+
+/*--------------------*/
